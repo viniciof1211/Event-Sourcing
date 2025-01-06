@@ -88,19 +88,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please open an issue or contact [Vinicio S. Flores](mailto:vfloreshdz@gmail.com).
 
-### Code Structure
-   ```plaintext
+## Code Structure
+   ```bash
    event-sourcing-python/
-      ├── src/
-      │   ├── __init__.py
-      │   ├── events.py          # Event base class and concrete events
-      │   ├── event_store.py     # Event Store (Hub) implementation
-      │   ├── aggregates.py      # Aggregate implementation
-      │   ├── services.py        # Microservices implementation
-      │   └── main.py            # Example usage
-      ├── tests/                 # Unit tests (optional)
-      ├── requirements.txt       # Dependencies
-      └── README.md              # This file
+   ├── src/
+   │ ├── init.py
+   │ ├── events.py # Event base class and concrete events
+   │ ├── event_store.py # Event Store (Hub) implementation
+   │ ├── aggregates.py # Aggregate implementation
+   │ ├── services.py # Microservices implementation
+   │ └── main.py # Example usage
+   ├── tests/ # Unit tests (optional)
+   ├── requirements.txt # Dependencies
+   └── README.md # This file
+   ```
 
 #### Example Output
    ```plaintext
