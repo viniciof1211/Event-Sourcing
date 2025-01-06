@@ -59,26 +59,6 @@ This will:
 - Create a new user by sourcing a UserCreatedEvent to the event store.
 - Replay events to reconstruct the state of the user.
 
-#### Example Output
-   ```plaintext
-   User: john_doe, Email: john@example.com
-
-### Code Structure
-   ```plaintext
-   event-sourcing-python/
-      ├── src/
-      │   ├── __init__.py
-      │   ├── events.py          # Event base class and concrete events
-      │   ├── event_store.py     # Event Store (Hub) implementation
-      │   ├── aggregates.py      # Aggregate implementation
-      │   ├── services.py        # Microservices implementation
-      │   └── main.py            # Example usage
-      ├── tests/                 # Unit tests (optional)
-      ├── requirements.txt       # Dependencies
-      └── README.md              # This file
-
----
-
 ## Extending the Project
 
 - **Add New Events**: Create new event classes by subclassing the `Event` base class.
@@ -109,3 +89,23 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or feedback, please open an issue or contact [Vinicio S. Flores](mailto:vfloreshdz@gmail.com).
+
+#### Example Output
+   ```plaintext
+   User: john_doe, Email: john@example.com
+
+
+### Code Structure
+   ```plaintext
+   event-sourcing-python/
+      ├── src/
+      │   ├── __init__.py
+      │   ├── events.py          # Event base class and concrete events
+      │   ├── event_store.py     # Event Store (Hub) implementation
+      │   ├── aggregates.py      # Aggregate implementation
+      │   ├── services.py        # Microservices implementation
+      │   └── main.py            # Example usage
+      ├── tests/                 # Unit tests (optional)
+      ├── requirements.txt       # Dependencies
+      └── README.md              # This file
+
