@@ -60,13 +60,11 @@ This will:
 - Replay events to reconstruct the state of the user.
 
 #### Example Output
-   ```bash
+   ```plaintext
    User: john_doe, Email: john@example.com
 
----
-
 ### Code Structure
-   ```bash
+   ```plaintext
    event-sourcing-python/
       ├── src/
       │   ├── __init__.py
@@ -78,6 +76,8 @@ This will:
       ├── tests/                 # Unit tests (optional)
       ├── requirements.txt       # Dependencies
       └── README.md              # This file
+
+---
 
 ## Extending the Project
 
