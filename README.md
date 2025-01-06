@@ -72,13 +72,11 @@ This will:
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ---
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
 ## Acknowledgments
 
 - Inspired by Martin Fowler's [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) pattern.
@@ -89,11 +87,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or feedback, please open an issue or contact [Vinicio S. Flores](mailto:vfloreshdz@gmail.com).
-
-#### Example Output
-   ```plaintext
-   User: john_doe, Email: john@example.com
-
 
 ### Code Structure
    ```plaintext
@@ -108,4 +101,9 @@ For questions or feedback, please open an issue or contact [Vinicio S. Flores](m
       ├── tests/                 # Unit tests (optional)
       ├── requirements.txt       # Dependencies
       └── README.md              # This file
+
+#### Example Output
+   ```plaintext
+   User: john_doe, Email: john@example.com
+
 
