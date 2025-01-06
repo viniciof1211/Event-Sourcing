@@ -29,5 +29,5 @@ This repository demonstrates the implementation of the **Event Sourcing** design
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/event-sourcing-python.git
+   git clone https://github.com/viniciof1211/Event-Sourcing.git
    cd event-sourcing-python
